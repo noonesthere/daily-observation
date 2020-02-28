@@ -10,9 +10,7 @@ by asking predefined questions and store answer to farther
 usage data for investigation for finding dependencies or other 
 interesting thoughts... 
 
-This simple application just manage owner
-Manage configs content simple step:
- * Add questions with different params e.g
+ Before start  you should add couple questions with different params e.g
  
  ###### checkbox did or not
  
