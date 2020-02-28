@@ -3,12 +3,35 @@
  */
 package daily.observation;
 
+import com.google.common.base.Strings;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.Scanner;
+
 public class App {
-    public String getGreeting() {
-        return "Hello world.";
+
+
+    public static void main(@Nonnull String[] args) {
+        final  Scanner scanner = new Scanner(System.in);
+        System.out.println("Sugar: [+ or - or enter to skip]");
+        final String sugar = scanner.next();
+        System.out.println("Plank: [+ or - or enter to skip]");
+        final String plank = scanner.next();
+
+        printResult(sugar);
+        printResult(plank);
     }
 
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+    private static void printResult(@Nullable String sugar) {
+        if (!Strings.isNullOrEmpty(sugar)) {
+            switch (sugar) {
+                case "+":
+                    System.out.println(":`(");
+                    break;
+                default:
+                    System.out.println(":)");
+            }
+        }
     }
 }
