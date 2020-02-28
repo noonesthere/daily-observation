@@ -27,8 +27,9 @@ Manage configs content simple step:
 * current weight: [weight]
     
 ###### predefined answers
- * daily mood       [good | bad | soso ]
- * got enough sleep [ good | bad | soso ]
+ * daily mood:       [good | bad | soso ]
+ * got enough sleep: [ good | bad | soso ]
+ * went sleep: [before 12 | after 12]
  
- ###### combined
+ ###### ranged
   
