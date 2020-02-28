@@ -21,7 +21,7 @@ Manage configs content simple step:
  - [ ] sugar 
     
 ###### measurable activity 
-* get up at* [time]
+* get up at: [time]
 * went sleep: [time]
 * spent money: [time]
     
