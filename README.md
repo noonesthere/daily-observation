@@ -23,7 +23,8 @@ Manage configs content simple step:
 ###### measurable activity 
 * get up at: [time]
 * went sleep: [time]
-* spent money: [time]
+* spent money: [amount]
+* current weight: [weight]
     
 ###### predefined answers
  * daily mood       [good | bad | soso ]
