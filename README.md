@@ -16,7 +16,8 @@ interesting thoughts...
  
  - [X] coffee 
  - [ ] plank 
- - [ ] sugar 
+ - [x] sugar 
+ - [ ] sport 
     
 ###### measurable activity 
 * get up at: [time]
@@ -29,5 +30,6 @@ interesting thoughts...
  * got enough sleep: [ good | bad | soso ]
  * went sleep: [before 12 | after 12]
  
- ###### ranged
+ ###### text
+  * exercises  ("abs legs back")
   
